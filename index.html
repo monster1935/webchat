@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>在线客服聊天界面</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<div id="header">
+		<span>在线客服聊天界面演示</span>
+	</div>
+	<div class="webchat">
+		
+		<div class="float-open">
+			<a href="javascript:void(0)" class="open-btn"></a>
+		</div>
+		<div class="float-webchat">
+			<div class="float-close"></div>
+				<a href="javascript:void(0)" class="float_close"></a>
+			<div class="wrapper">
+				
+				<div class="banner"></div>
+				<div class="historyMsg" id="historyMsg"></div>
+				<div class="control">
+					<input id="emoji" class="control emoji"  type="button" title="emoji" />
+					<input id="image" class="control image" type="button" title="image"/>
+					<label for="sendImage" class=" control imageLable">
+					    <input id="sendImage" type="file" value="image"  accept="image/*"/>
+					</label>
+					<input id="file" class="control file" type="button" title="file"/>
+					<lable for="sendFile" class="control fileLable">
+					    <input id="sendFile" type="file" value="file"/>
+					</lable>
+					<input id="clearBtn" class="control clear"  type="button" title="clear screen" />
+				</div>
+				<div class="messageInput" id="messageInput" contentEditable="true"></div>
+				<input type="button" id="sendBtn" value="发送">
+				<input type="button" id="closeBtn" value="关闭">
+				<div id="emojiWrapper"></div>
+				<div id="warning">
+					<img src="images/error.png"/>
+					发送内容不能为空，请重新输入。
+					<i class='cor'></i>
+				</div>
+				
+
+		</div>
+
+
+	</div>
+
+
+	
+	<script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+	<script src="js/float.js"></script>
+	<script src="js/webchat.js"></script>
+
+
+</body>
+</html>

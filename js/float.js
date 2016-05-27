@@ -1,4 +1,3 @@
-console.log('start');
 $(document).ready(function(){
 	
 	function webchat_close() {

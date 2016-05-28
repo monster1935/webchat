@@ -186,7 +186,6 @@ html, body {
 	 background:url(../images/file1.png) no-repeat center ;	
 }
 .clear{
-	/*float:left;*/
 	cursor: pointer;
 	width:5px;
     border:0px;

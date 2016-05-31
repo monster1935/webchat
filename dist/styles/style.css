@@ -89,7 +89,6 @@ html, body {
 
 /* 控制按钮样式 */
 .emoji{
-	/*float:left;*/
 	cursor: pointer;
 	margin-left:10px;
 	width:5px;

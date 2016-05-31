@@ -89,7 +89,7 @@ html, body {
 
 /* 控制按钮样式 */
 .emoji{
-	float:left;
+	/*float:left;*/
 	cursor: pointer;
 	margin-left:10px;
 	width:5px;
@@ -118,7 +118,7 @@ html, body {
 
 /* 图片按钮 */
 .image{
-	float:left;
+	/*float:left;*/
 	cursor: pointer;
 	width:5px;
     border:0px;
@@ -165,7 +165,7 @@ html, body {
     overflow: hidden;
 }
 .file{
-	float:left;
+	/*float:left;*/
 	cursor: pointer;
 	width:5px;
     border:0px;
@@ -186,7 +186,6 @@ html, body {
 	 background:url(../images/file1.png) no-repeat center ;	
 }
 .clear{
-	float:left;
 	cursor: pointer;
 	width:5px;
     border:0px;
